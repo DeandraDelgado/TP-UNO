@@ -1,34 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: helvetica;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #9ACDA2;
+    display: flex;
+    flex-direction: row;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    width: 100%;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.logo-container img {
+	width: 200px;
+	height:40px;
+}
+
+nav {
+   width: 500px;
+   height:50px;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 18px;
+   padding-right: 20px;
+}
+
+.links a {
+    font-size: 18px;
+    padding-right: 3px;
+    color: white;
+    text-decoration: none;
+}
+
+/*SOFI*/
+
 .page {
-    border: 1px solid black;
     padding: 10px;
-   }
+}
 
 .profile-container {
-    background-color: grey;
+    background-color: #69B18F;
     width: 100%;
-    height: 130px;  
+    height: 130px;
+    display: flex;
+    flex-flow: center;
+    justify-content: space-between;
 }
 
 .profile-pic {
     width: 100px;
     height: 100px;
-    background-color: aquamarine;
-    border: 2px solid black;
     position: absolute;
     margin-left: 15px;
     margin-top: 15px;
-    display: inline-block;  
+    display: inline-block;
 }
 
+.profile-pic img {
+	width: 100px;
+	height: 100px;
+}
 .personal-info {
-    background-color: lightcoral;
     display: inline-block;
     margin-left: 140px;
-    margin-top: 15px;
+    margin-top: 5px;
     padding: 5px;
-    width: 200px;
+    width: 500px;
     height: 95px;
-    font-size: 12px;    
+    font-size: 18px;
+  	font-weight: bold;
+  	color: white;
 }
 
 .logos {
@@ -36,9 +89,9 @@
     height: 40px;
     display: inline-block;
     position: relative;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 30px;
-    margin-right: 20px;
+    margin-right: 40px;
     float: right;
 }
 
@@ -54,13 +107,107 @@
     height: 36px;
     display: inline-block;
     float: right;
-    margin-right: 5px;   
+    margin-right: 5px;
 }
 
 .slider {
-    background-color: khaki;
+    background-color: #2F7E80;
     margin: 0 auto;
     text-align: center;
     margin-top: 5px;
     width: 100%;
+}
+
+
+/*Paula*/
+
+.main-header-container {
+    background-color: #C2DB99;
+    margin: 0 auto;
+    margin-top: 2px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 25px;
+}
+
+.header-container {
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    display: inline-block;
+    background-color: #C2DB99;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-container {
+    height: 150px;
+    width: 150px;
+    float: left;
+    padding-top: 10px;
+		padding-left: 15px; 
+  }
+
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    min-width: 300px;
+    max-width: 300px;
+    height: auto;
+    float: right;
+    padding-right: 5px;
+    text-align: left;
+}
+
+.text-title {
+    color: black;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    font-weight: bold;
+}
+
+.text-inside {
+    text-align: left;
+    display: inline-block;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #96CFCE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.mail {
+   margin-left: 10px;
+   margin-top: 10px;
+   color: white;
+   text-decoration: none;
+}
+.div-logos {
+  width: 128px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between; 
+
+}
+.img-footer-container {
+  width: 36px;
+  height: 36px;
+
+}
+.img-footer-container img {
+  width: 100%;
+  height: auto;
 }
